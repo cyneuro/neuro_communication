@@ -1,0 +1,8 @@
+./hh.c: ../modfiles/hh.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../modfiles";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "hh.mod" -o "/Users/vladimiromelyusik/neuro_communication/single_cell/x86_64")
+
+./hh.o: ./hh.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../modfiles" $(INCLUDES) -fPIC -c $< -o $@
+
