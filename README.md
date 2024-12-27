@@ -19,12 +19,12 @@ Analyzing a properly tuned model can reveal fundamental biological principles of
 Used to provide insights on the functional properties of brain structures using data-driven (statistical) approaches.
 
 1. Neural activity recordings as a hardware indicator of communication
-  - [LFP]()
-  - [fMRI]()
-  - [EEG]()
+  - **TODO:** [LFP]()
+  - **TODO:** [fMRI]()
+  - **TODO:**[EEG]()
 
 2. Estimating functional connectivity during communication
-  - [DCM]()
+  - **TODO:** [DCM]()
 
 ## Communication hypotheses
 
@@ -32,6 +32,6 @@ Insights from computational and statistical models reveal potential mechanisms u
 Some of them are listed below.
 
 1. Communication and coherence
-  - Coh-th-Com vs Com-th-Coh: [SSM model (theory)](), [SSM model (tested on a PING network)]()
+  - Coh-th-Com vs Com-th-Coh: [SSM model (theory)](),  **TODO:** [SSM model (tested on a PING network)]()
 2. Memory encoding and decoding
-  - [Spatial computing model]()
+  - **TODO:** [Spatial computing model]()
