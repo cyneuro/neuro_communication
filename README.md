@@ -12,7 +12,7 @@ Analyzing a properly tuned model can reveal fundamental biological principles of
   - [Hodgkin-Huxley model]()
 
 2. Generating neural oscillations.
-   - [PING-Assembly network]()
+  - [PING-Assembly network]()
 
 ## Statistical models and paradigms
 
