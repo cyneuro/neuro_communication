@@ -24,7 +24,7 @@ Used to provide insights on the functional properties of brain structures using 
   - **TODO:**[EEG]()
 
 2. Estimating functional connectivity during communication
-  - **TODO:** [DCM]()
+  - [DCM]()
 
 ## Communication hypotheses
 
