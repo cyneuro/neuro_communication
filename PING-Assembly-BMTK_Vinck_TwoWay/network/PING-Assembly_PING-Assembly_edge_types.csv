@@ -1,9 +1,0 @@
-edge_type_id target_query source_query model_template distance_range target_sections dynamics_params syn_weight delay weight_function
-100 pop_name=='0_I' pop_name=='0_E' Exp2Syn "[0.0, 0.1]" ['soma'] PING_ExcToInh.json 0.000625 0 NULL
-101 pop_name=='0_I' pop_name=='0_I' Exp2Syn "[0.0, 0.1]" ['soma'] PING_InhToInh.json 0.0025 0 NULL
-102 pop_name=='0_E' pop_name=='0_I' Exp2Syn "[0.0, 0.1]" ['soma'] PING_InhToExc.json 0.0025 0 NULL
-103 pop_name=='1_I' pop_name=='1_E' Exp2Syn "[0.0, 0.1]" ['soma'] PING_ExcToInh.json 0.000625 0 NULL
-104 pop_name=='1_I' pop_name=='1_I' Exp2Syn "[0.0, 0.1]" ['soma'] PING_InhToInh.json 0.0025 0 NULL
-105 pop_name=='1_E' pop_name=='1_I' Exp2Syn "[0.0, 0.1]" ['soma'] PING_InhToExc.json 0.0025 0 NULL
-106 pop_name=='1_I' pop_name=='0_E' Exp2Syn "[0.0, 0.1]" ['soma'] PING_ExcToInh.json 0.000625 0 NULL
-107 pop_name=='0_I' pop_name=='1_E' Exp2Syn "[0.0, 0.1]" ['soma'] PING_ExcToInh.json 0.000625 0 NULL
