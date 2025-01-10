@@ -1,6 +1,6 @@
 ./gap.c: ../components/mechanisms//gap.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "gap.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "gap.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./gap.o: ./gap.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -8,7 +8,7 @@
 
 ./k_rtm.c: ../components/mechanisms//k_rtm.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_rtm.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_rtm.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./k_rtm.o: ./k_rtm.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -16,7 +16,7 @@
 
 ./k_wb.c: ../components/mechanisms//k_wb.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_wb.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "k_wb.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./k_wb.o: ./k_wb.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -24,7 +24,7 @@
 
 ./leak.c: ../components/mechanisms//leak.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "leak.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "leak.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./leak.o: ./leak.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -32,7 +32,7 @@
 
 ./na_rtm.c: ../components/mechanisms//na_rtm.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_rtm.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_rtm.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./na_rtm.o: ./na_rtm.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -40,7 +40,7 @@
 
 ./na_wb.c: ../components/mechanisms//na_wb.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_wb.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "na_wb.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./na_wb.o: ./na_wb.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
@@ -48,7 +48,7 @@
 
 ./vecevent.c: ../components/mechanisms//vecevent.mod
 	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
-	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecevent.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck_OneWay/arm64")
+	(cd "../components/mechanisms";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecevent.mod" -o "/Users/lilygebhart/Downloads/neuro_communication/PING-Assembly-BMTK_Vinck/arm64")
 
 ./vecevent.o: ./vecevent.c
 	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
