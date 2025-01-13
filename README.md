@@ -9,22 +9,22 @@ Used to model brain structures (cells, brain regions) using biophysical principl
 Analyzing a properly tuned model can reveal fundamental biological principles of neural phenomena.
 
 1. Single cell: a basic hardware unit for communication.
-  - [Hodgkin-Huxley model]()
+  - [Hodgkin-Huxley model](HH/hh_spiker.ipynb)
 
 2. Generating neural oscillations.
-  - [PING-Assembly network]()
+  - [PING-Assembly network](PING-Assembly_BMTK/PING-Assembly_BMTK.ipynb)
 
 ## Statistical models and paradigms
 
 Used to provide insights on the functional properties of brain structures using data-driven (statistical) approaches.
 
 1. Neural activity recordings as a hardware indicator of communication
-  - **TODO:** [LFP]()
-  - **TODO:** [fMRI]()
-  - **TODO:**[EEG]()
+  - LFP (planned)
+  - fMRI (planned)
+  - [EEG](eeg_emotion_classification.ipynb)
 
 2. Estimating functional connectivity during communication
-  - [DCM]()
+  - [DCM](DCM/DCM_tutorial.ipynb)
 
 ## Communication hypotheses
 
@@ -32,6 +32,6 @@ Insights from computational and statistical models reveal potential mechanisms u
 Some of them are listed below.
 
 1. Communication and coherence
-  - Coh-th-Com vs Com-th-Coh: [SSM model (theory)](),  **TODO:** [SSM model (tested on a PING network)]()
+  - Coh-th-Com vs Com-th-Coh: [SSM model (theory)](SSM/Vinck2021_SSM_tutorial.ipynb), [SSM model (tested on a PING network, one-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_OneWay.ipynb), [SSM model (tested on a PING network, two-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_TwoWay.ipynb)
 2. Memory encoding and decoding
-  - **TODO:** [Spatial computing model]()
+  - [Spatial computing model](SpatialComputing.ipynb)
