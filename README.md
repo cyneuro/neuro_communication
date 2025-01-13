@@ -31,7 +31,9 @@ Used to provide insights on the functional properties of brain structures using 
 Insights from computational and statistical models reveal potential mechanisms underlying communication.
 Some of them are listed below.
 
-1. Communication and coherence
-  - Coh-th-Com vs Com-th-Coh: [SSM model (theory)](SSM/Vinck2021_SSM_tutorial.ipynb), [SSM model (tested on a PING network, one-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_OneWay.ipynb), [SSM model (tested on a PING network, two-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_TwoWay.ipynb)
+1. Coh-th-Com vs Com-th-Coh
+  - [SSM model (theory)](SSM/Vinck2021_SSM_tutorial.ipynb)
+  - [SSM model (tested on a PING network, one-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_OneWay.ipynb)
+  - [SSM model (tested on a PING network, two-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_TwoWay.ipynb)
 2. Memory encoding and decoding
-  - [Spatial computing model](SpatialComputing.ipynb)
+  - [Spatial computing model (theory)](SpatialComputing.ipynb)
