@@ -13,6 +13,7 @@ Analyzing a properly tuned model can reveal fundamental biological principles of
 
 2. Generating neural oscillations.
   - [PING-Assembly network](PING-Assembly_BMTK/PING-Assembly_BMTK.ipynb)
+  - [Interactive network models](https://github.com/cyneuro/Neural-Modeling-Manual/tree/main/Chapter-6-Full-Network-Models)
 
 ## Statistical models and paradigms
 
