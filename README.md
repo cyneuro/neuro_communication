@@ -10,6 +10,7 @@ Analyzing a properly tuned model can reveal fundamental biological principles of
 
 1. Single cell: a basic hardware unit for communication.
   - [Hodgkin-Huxley model](HH/hh_spiker.ipynb)
+  - [Our tutorials on single cell properties](https://cyneuro.github.io/cyneuro-resources/training/comp_neuro_tutorials.html#content-training-comp-neuro-tutorials)
 
 2. Generating neural oscillations.
   - [PING-Assembly network](PING-Assembly_BMTK/PING-Assembly_BMTK.ipynb)
@@ -38,3 +39,14 @@ Some of them are listed below.
   - [SSM model (tested on a PING network, two-way)](SSM/PING-Assembly-BMTK_Vinck/PING-Assembly_BMTK_TwoWay.ipynb)
 2. Memory encoding and decoding
   - [Spatial computing model (theory)](SpatialComputing.ipynb)
+
+## Other packages
+The following packages can be used for computational modeling:
+- [NEURON](https://www.neuron.yale.edu/neuron/) (also see [MIT NEURON tutorial](https://web.mit.edu/neuron_v7.4/nrntuthtml/index.html))
+- [BMTK](https://alleninstitute.github.io/bmtk/)
+- [NEST](https://nest-simulator.readthedocs.io/en/stable/)
+- [BRIAN](https://briansimulator.org)
+
+## References
+
+See [this file](references.bib) for references and bibliography.
